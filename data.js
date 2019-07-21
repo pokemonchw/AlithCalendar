@@ -196,14 +196,14 @@ window.DATA={
             "displayIndex": 1,
             "name": "1 - 千风帝国",
             "sourceRelativePath": "2 - 国家/1 - 千风帝国.md",
-            "isEarlyAccess": false,
+            "isEarlyAccess": true,
             "commentsUrl": "https://github.com/pokemonchw/AlithCalendar/issues/4",
             "htmlRelativePath": "Past.2:国家/Past.1:千风帝国.html",
-            "chapterCharCount": 7
+            "chapterCharCount": 4
           }
         ],
         "subFolders": [],
-        "folderCharCount": 11
+        "folderCharCount": 8
       },
       {
         "displayName": "Past.3:种族",
@@ -268,9 +268,9 @@ window.DATA={
         "folderCharCount": 72
       }
     ],
-    "folderCharCount": 2672
+    "folderCharCount": 2669
   },
-  "charsCount": 2672,
+  "charsCount": 2669,
   "paragraphsCount": 61,
   "keywordsCount": [
     [
@@ -362,5 +362,5 @@ window.DATA={
       0
     ]
   ],
-  "buildNumber": "5"
+  "buildNumber": "6"
 };

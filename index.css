@@ -122,7 +122,7 @@ body.animation-enabled .rect {
 .rect.reading {
   z-index: 1;
 
-  overflow-y: overlay;
+  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
 }
 body.animation-enabled .rect>div {
