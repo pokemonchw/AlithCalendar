@@ -43,7 +43,7 @@ const commentsUrlEnd = ')';
       // No specified display name
       displayName = (isFolder ? folderDefaultNamer : chapterDefaultNamer)(displayIndex);
     } else {
-      displayName = "Past." + displayIndex + ':' + split[1];
+      displayName = 'Past.' + displayIndex + ':' + split[1];
     }
     return {
       displayName,

@@ -20,5 +20,5 @@ export const keywords: Array<string> = [
     '妖精',
     '英雄',
     '风痕洛泽',
-    '历史'
+    '历史',
 ];
