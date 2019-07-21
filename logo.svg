@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<svg width="32px" height="32px" version="1.1"
+xmlns="http://www.w3.org/2000/svg">
+
+<circle cx="15" cy="6" r="6" stroke="gray" stroke-width="2" fill="transparent"/>
+<path d="M15 13 L15 22 Z" style="fill:gray;stroke:gray;stroke-width:2"/>
+<path d="M15 22 L0 32 Z" style="fill:gray;stroke:gray;stroke-width:2"/>
+<path d="M15 22 L32 32 Z" style="fill:gray;stroke:gray;stroke-width:2"/>
+<path d="M15 13 L0 10 Z" style="fill:gray;stroke:gray;stroke-width:2"/>
+<path d="M15 13 L32 10 Z" style="fill:gray;stroke:gray;stroke-width:2"/>
+<path d="M15 25 L15 32 Z" style="fill:gray;stroke:gray;stroke-width:4"/>
+<path d="M0 0 L32 0 L32 32 L0 32 L0 0 Z" style="fill:transparent;stroke:gray;stroke-width:1;"/>
+
+</svg>

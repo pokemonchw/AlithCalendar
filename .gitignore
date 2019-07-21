@@ -1,0 +1,6 @@
+/dist
+/ts-out
+/node_modules
+/package-lock.json
+/static/bundle.js
+*.backup

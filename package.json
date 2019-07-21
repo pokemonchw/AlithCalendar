@@ -1,0 +1,36 @@
+{
+  "name": "wearable-technology",
+  "version": "1.0.0",
+  "description": "《阿里夫编年史》网页构建脚本",
+  "main": "builder/index.js",
+  "scripts": {
+    "initBuild": "tsc && node ts-out/builder/index.js",
+    "build": "npm run initBuild && browserify ts-out/web/index.js -o dist/bundle.max.js && uglifyjs dist/bundle.max.js --compress --mangle -o dist/bundle.js ",
+    "watch": "npm run initBuild && start echo === Web Server === ^&^& cd ./dist ^&^& static-server -p 2333 && start echo === Static File Sync Watcher === ^&^& cpx static/**/* dist -w && start echo === Bundler Server === ^&^& watchify src/web/index.ts -p tsify -o dist/bundle.js && open-cli http://127.0.0.1:2333",
+    "lint": "tslint --project ./"
+  },
+  "author": "SCLeo",
+  "license": "CC-BY-NC-ND-4.0",
+  "repository": "github:pokemonchw/AlithCalendar",
+  "dependencies": {
+    "@types/fs-extra": "^8.0.0",
+    "@types/markdown-it": "0.0.8",
+    "@types/node": "^12.6.1",
+    "anywhere": "^1.5.0",
+    "browserify": "^16.2.3",
+    "fs-extra": "^8.1.0",
+    "markdown-it": "^9.0.0",
+    "markdown-it-replace-link": "^1.0.1",
+    "typescript": "^3.2.4",
+    "uglify-js": "^3.4.9"
+  },
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "csscomb": "^4.3.0",
+    "open-cli": "^5.0.0",
+    "static-server": "^2.2.1",
+    "tsify": "^4.0.1",
+    "tslint": "^5.12.1",
+    "watchify": "^3.11.1"
+  }
+}

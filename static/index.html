@@ -1,0 +1,40 @@
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>阿里夫编年史</title>
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="icon" type="image/png" href="./favicon.png">
+</head>
+<body class="animation-enabled">
+  <script>
+    if (window.localStorage.getItem('warning') === 'false') {
+      document.getElementById('warning').remove();
+    }
+  </script>
+  <div id="rect" class="rect" tabindex="-1">
+    <div id="content" class="content">
+      我能吞下玻璃而不伤身体。
+    </div>
+    <div id="comments" class="comments">
+      <h1>评论区</h1>
+      <p id="comments-status">正在加载评论...</p>
+      <div id="create-comment" class="create-comment">+ 添加评论</div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="english-title">Alith Calendar</div>
+    <div class="title">阿里夫编年史</div>
+    <div class="build-author-container">
+      <a target="_blank" href="https://travis-ci.org/pokemonchw/AlithCalendar">
+        <div id="build-number" class="button build"></div>
+      </a>
+      <div class="author">猫晴弥柚</div>
+    </div>
+  </div>
+  <script src="./data.js" defer></script>
+  <script src="./bundle.js" defer></script>
+</body>
+</html>
