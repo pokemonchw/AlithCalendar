@@ -83,7 +83,19 @@ class Style {
 }
 
 const styles = [
-  new Style('默认', {
+  new Style('默认(可穿戴科技)', {
+    rectBgColor: '#444',
+    paperBgColor: '#333',
+    textColor: '#DDD',
+    linkColor: '#66F',
+    linkHoverColor: '#66F',
+    linkActiveColor: '#44D',
+    contentBlockEarlyAccessColor: '#E65100',
+    commentColor: '#444',
+
+    keyIsDark: false,
+  }),
+  new Style('白纸', {
     rectBgColor: '#EFEFED',
     paperBgColor: '#FFF',
     textColor: '#000',
@@ -118,18 +130,6 @@ const styles = [
     commentColor: '#F9EFD7',
 
     keyIsDark: true,
-  }),
-  new Style('可穿戴科技', {
-    rectBgColor: '#444',
-    paperBgColor: '#333',
-    textColor: '#DDD',
-    linkColor: '#66F',
-    linkHoverColor: '#66F',
-    linkActiveColor: '#44D',
-    contentBlockEarlyAccessColor: '#E65100',
-    commentColor: '#444',
-
-    keyIsDark: false,
   }),
   new Style('巧克力', {
     rectBgColor: '#2C1C11',
