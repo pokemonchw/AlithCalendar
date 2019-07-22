@@ -71,7 +71,7 @@ body.animation-enabled .warning-backdrop {
 
   transform: translate(-50%, -50%);
 
-  font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+  font-family: 'ZCOOL KuaiLe', sans-serif;
 }
 .warning-container .title {
   margin-bottom: 2vh;
@@ -333,12 +333,12 @@ body.animation-enabled .rect>.comments>.create-comment::before {
   }
 }
 .container .english-title {
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-family: 'ZCOOL KuaiLe', cursive;
   font-size: 5.2vh;
   line-height: 5.2vh;
 }
 .container .title {
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-family: 'ZCOOL KuaiLe', cursive;
   font-size: 10vh;
   line-height: 10vh;
 }
@@ -355,7 +355,7 @@ body.animation-enabled .rect>.comments>.create-comment::before {
 
   text-align: left;
 
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-family: 'ZCOOL KuaiLe', cursive;
   font-size: 2.6vh;
 }
 .container .build-author-container .author {
@@ -417,7 +417,7 @@ body.animation-enabled .menu {
   opacity: 1;
   color: #DDD;
 
-  font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+  font-family: 'ZCOOL KuaiLe', sans-serif;
 }
 .menu.hidden {
   transform: translateX(-5vh);
@@ -425,7 +425,7 @@ body.animation-enabled .menu {
 
   opacity: 0;
 
-  font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+  font-family: 'ZCOOL KuaiLe', sans-serif;
 }
 .menu div, .menu a {
   display: block;
@@ -437,7 +437,7 @@ body.animation-enabled .menu {
   transform: scaleX(1.2);
   transform-origin: 0;
 
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-family: 'ZCOOL KuaiLe', cursive;
   font-size: 5vh;
   line-height: 5vh;
 }

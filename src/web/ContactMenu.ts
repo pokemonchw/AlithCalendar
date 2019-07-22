@@ -8,5 +8,10 @@ export class ContactMenu extends Menu {
       button: true,
       link: 'https://github.com/pokemonchw/AlithCalendar',
     });
+    this.addItem('作者Mastodon',{
+      small: true,
+      button:true,
+      link: 'https://pawoo.net/@nekoharuya',
+    });
   }
 }
