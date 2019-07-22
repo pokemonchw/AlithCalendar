@@ -732,7 +732,6 @@ var SettingsMenu = /** @class */ (function (_super) {
     __extends(SettingsMenu, _super);
     function SettingsMenu(parent) {
         var _this = _super.call(this, '设置', parent) || this;
-        _this.addBooleanSetting('NSFW 警告', settings_1.warning);
         _this.addBooleanSetting('使用动画', settings_1.animation);
         _this.addBooleanSetting('显示编写中章节', settings_1.earlyAccess);
         _this.addBooleanSetting('显示评论', settings_1.useComments);
