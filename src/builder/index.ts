@@ -28,7 +28,6 @@ const commentsUrlEnd = ')';
   readFile(indexPath, 'utf-8', (err, files) => {
     let result = files.replace(new RegExp('.js" defer>', 'g'), '.js?v=' + nowTime + '" defer>');
     result = result.replace(new RegExp('.css">', 'g'), '.css?v=' + nowTime + '">');
-    console.info(result);
     writeFile(indexPath, result, 'utf-8', (err) => {
       if (err) {
          return console.log(err);

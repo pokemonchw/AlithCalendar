@@ -35,7 +35,6 @@ export class EnumSettingMenu extends Menu {
 export class SettingsMenu extends Menu {
   public constructor(parent: Menu) {
     super('设置', parent);
-    this.addBooleanSetting('NSFW 警告', warning);
     this.addBooleanSetting('使用动画', animation);
     this.addBooleanSetting('显示编写中章节', earlyAccess);
     this.addBooleanSetting('显示评论', useComments);
