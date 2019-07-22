@@ -175,6 +175,11 @@ var ContactMenu = /** @class */ (function (_super) {
             button: true,
             link: 'https://github.com/pokemonchw/AlithCalendar',
         });
+        _this.addItem('作者Mastodon', {
+            small: true,
+            button: true,
+            link: 'https://pawoo.net/@nekoharuya',
+        });
         return _this;
     }
     return ContactMenu;
