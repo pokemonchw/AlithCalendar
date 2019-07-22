@@ -7,7 +7,6 @@ import { countCertainWord } from './countCertainWord';
 import { countChars } from './countChars';
 import { countParagraphs } from './countParagraphs';
 import { keywords } from './keywords';
-import fs = require('fs');
 
 const earlyAccessFlag = '# 编写中';
 const commentsUrlBegin = '[评论](';
@@ -24,16 +23,18 @@ const commentsUrlEnd = ')';
 
   // Copy static
   await copy(staticDir, distDir);
-  const indexPath = resolve(distDir,'index.html')
-  const nowTime = new Date().getTime()
-  fs.readFile(indexPath,'utf-8',function(err,files){
-    var result = files.replace(new RegExp(".js' defer>",'g'), '.js?v=' + nowTime + "' defer>");
-    result = result.replace(new RegExp('.css">','g'), '.css?v=' + nowTime + '">');
+  const indexPath = resolve(distDir, 'index.html');
+  const nowTime = new Date().getTime();
+  readFile(indexPath, 'utf-8', (err, files) => {
+    let result = files.replace(new RegExp('.js" defer>', 'g'), '.js?v=' + nowTime + '" defer>');
+    result = result.replace(new RegExp('.css">', 'g'), '.css?v=' + nowTime + '">');
     console.info(result);
-    fs.writeFile(indexPath,result,'utf-8',function(err){
-      if (err) return console.log(err);
+    writeFile(indexPath, result, 'utf-8', (err) => {
+      if (err) {
+         return console.log(err);
+      }
     });
-  })
+  });
   console.info('Static copied.');
 
   const chapterDefaultNamer = (displayIndex: number) => `Past. ${displayIndex} `;
