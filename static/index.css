@@ -339,8 +339,8 @@ body.animation-enabled .rect>.comments>.create-comment::before {
 }
 .container .title {
   font-family: 'ZCOOL KuaiLe', cursive;
-  font-size: 10vh;
-  line-height: 10vh;
+  font-size: 7vh;
+  line-height: 7vh;
 }
 .container .build-author-container {
   display: flex;
