@@ -25,9 +25,9 @@ const commentsUrlEnd = ')';
   await copy(staticDir, distDir);
   const indexPath = resolve(distDir, 'index.html');
   const nowTime = new Date().getTime();
-  readFile(indexPath, 'utf-8', (err, files) => {
-    let result = files.replace(new RegExp('.js" defer>', 'g'), '.js?v=' + nowTime + '" defer>');
-    result = result.replace(new RegExp('.css">', 'g'), '.css?v=' + nowTime + '">');
+  await readFile(indexPath, 'utf-8', (err, files) => {
+    let result = files.replace(new RegExp('js" defer>', 'g'), 'js?v=' + nowTime + '" defer>');
+    result = result.replace(new RegExp('css">', 'g'), 'css?v=' + nowTime + '">');
     writeFile(indexPath, result, 'utf-8', (err) => {
       if (err) {
          return console.log(err);
