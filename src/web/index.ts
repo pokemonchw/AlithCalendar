@@ -4,8 +4,6 @@ import { followQuery } from './followQuery';
 import { MainMenu } from './MainMenu';
 import { updateSelection } from './updateSelection';
 
-const $warning = id('warning');
-
 const $buildNumber = id('build-number');
 $buildNumber.innerText = `Build ${data.buildNumber}`;
 
