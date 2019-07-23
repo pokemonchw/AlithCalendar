@@ -261,8 +261,9 @@ body.animation-enabled .rect>.comments>.create-comment::before {
   }
 }
 .container .english-title {
-  font-family: 'ZCOOL QingKe HuangYou', cursive;
-  font-size: 5.2vh;
+  font-family: 'Butterfly Kids', cursive;
+  font-weight:bold;
+  font-size: 7vh;
   line-height: 5.2vh;
 }
 .container .title {
@@ -278,7 +279,6 @@ body.animation-enabled .rect>.comments>.create-comment::before {
 }
 .container .build-author-container .build {
   flex: 1;
-
   padding-top: 0.2vh;
 
   text-align: left;
@@ -288,10 +288,10 @@ body.animation-enabled .rect>.comments>.create-comment::before {
 }
 .container .build-author-container .author {
   flex: 1;
-
+  padding-top: 0.2vh;
   text-align: right;
-
-  font-size: 2vh;
+  font-family: 'ZCOOL KuaiLe', cursive;
+  font-size: 2.4vh;
 }
 
 .button {
