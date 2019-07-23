@@ -1666,22 +1666,8 @@ var data_1 = require("./data");
 var DOM_1 = require("./DOM");
 var followQuery_1 = require("./followQuery");
 var MainMenu_1 = require("./MainMenu");
-var settings_1 = require("./settings");
 var updateSelection_1 = require("./updateSelection");
 var $warning = DOM_1.id('warning');
-if ($warning !== null) {
-    $warning.addEventListener('click', function () {
-        $warning.style.opacity = '0';
-        if (settings_1.animation.getValue()) {
-            $warning.addEventListener('transitionend', function () {
-                $warning.remove();
-            });
-        }
-        else {
-            $warning.remove();
-        }
-    });
-}
 var $buildNumber = DOM_1.id('build-number');
 $buildNumber.innerText = "Build " + data_1.data.buildNumber;
 new MainMenu_1.MainMenu().setActive(true);
@@ -1693,7 +1679,7 @@ window.addEventListener('popstate', function () {
 });
 followQuery_1.followQuery();
 
-},{"./DOM":4,"./MainMenu":7,"./data":18,"./followQuery":19,"./settings":27,"./updateSelection":32}],24:[function(require,module,exports){
+},{"./DOM":4,"./MainMenu":7,"./data":18,"./followQuery":19,"./updateSelection":32}],24:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var DebugLogger_1 = require("./DebugLogger");
