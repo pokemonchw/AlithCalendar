@@ -14,7 +14,7 @@ window.DATA={
         "isEarlyAccess": true,
         "commentsUrl": null,
         "htmlRelativePath": "Past.6:历史.html",
-        "chapterCharCount": 2
+        "chapterCharCount": 10
       },
       {
         "displayName": "Past.7:舞台用语",
@@ -282,7 +282,7 @@ window.DATA={
             "isEarlyAccess": false,
             "commentsUrl": "https://github.com/pokemonchw/AlithCalendar/issues/13",
             "htmlRelativePath": "Past.5:信仰/Past.0:信仰.html",
-            "chapterCharCount": 249
+            "chapterCharCount": 283
           }
         ],
         "subFolders": [
@@ -390,12 +390,12 @@ window.DATA={
             "folderCharCount": 4
           }
         ],
-        "folderCharCount": 760
+        "folderCharCount": 794
       }
     ],
-    "folderCharCount": 3429
+    "folderCharCount": 3471
   },
-  "charsCount": 3429,
+  "charsCount": 3471,
   "paragraphsCount": 75,
   "keywordsCount": [
     [
@@ -487,5 +487,5 @@ window.DATA={
       0
     ]
   ],
-  "buildNumber": "17"
+  "buildNumber": "18"
 };

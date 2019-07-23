@@ -1667,7 +1667,6 @@ var DOM_1 = require("./DOM");
 var followQuery_1 = require("./followQuery");
 var MainMenu_1 = require("./MainMenu");
 var updateSelection_1 = require("./updateSelection");
-var $warning = DOM_1.id('warning');
 var $buildNumber = DOM_1.id('build-number');
 $buildNumber.innerText = "Build " + data_1.data.buildNumber;
 new MainMenu_1.MainMenu().setActive(true);
